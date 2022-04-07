@@ -1,0 +1,9 @@
+.header__logout-link {
+  font-family: Inter;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 51px 0 0;
+  color: #A9A9A9;
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.elements__item{
+  width: 282px;
+  height: 371px;
+  background-color: #fff;
+  overflow: hidden;
+  border-radius: 10px;
+  margin: auto;
+  position: relative;
+}

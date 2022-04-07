@@ -1,0 +1,28 @@
+.popup__button-clouse{
+  background-image: url(../../../images/CloseIcon.svg);
+  width: 32px;
+  height: 32px;
+  background-color: transparent;
+  cursor: pointer;
+  background-position: center;
+  background-repeat: no-repeat;
+  border: 0;
+  position: absolute;
+  right: -40px;
+  top: -40px;
+  transition: all 0.4s ease-in-out;
+}
+
+.popup__button-clouse:hover{
+  opacity: 0.6;
+}
+
+@media screen and (max-width:760px) {
+  .popup__button-clouse{
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    right: 0;
+    top: -32px;
+  }
+}

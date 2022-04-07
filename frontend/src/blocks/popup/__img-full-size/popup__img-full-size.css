@@ -1,0 +1,11 @@
+.popup__img-full-size{
+  max-width: 75vw;
+  max-height: 75vh;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 760px) {
+  .popup__img-full-size{
+    height: 75vh;
+  }
+}
