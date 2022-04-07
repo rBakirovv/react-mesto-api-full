@@ -25,7 +25,12 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(requestLogger);
 
 app.use(cors({
-  origin: 'https://api.bakirov.students.nomoredomains.work',
+  origin: [
+    'https://api.bakirov.students.nomoredomains.work',
+    'https://bakirov.students.nomoredomains.work',
+    'http://localhost:3000',
+    'http://localhost:3001',
+  ],
   credentials: true,
 }));
 
