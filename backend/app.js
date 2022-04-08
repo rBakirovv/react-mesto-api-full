@@ -29,6 +29,7 @@ app.use(cors({
   origin: [
     'https://api.bakirov.students.nomoredomains.work',
     'https://bakirov.students.nomoredomains.work',
+    'http://bakirov.students.nomoredomains.work',
     'http://localhost:3000',
     'http://localhost:3001',
   ],
